@@ -1,4 +1,3 @@
-<div style="background-color:#222; color:white; padding:20px; border-radius:10px;">
 # Behavior
 ## Scan page
 <img src="images/before_ble_scan.png" width="200" height="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/ble_scanning.png" width="200" height="400"/>
@@ -7,5 +6,3 @@
 
 # BLE connection APP guid
 https://youtube.com/shorts/tkOb3xJVnLQ
-
-</div>
