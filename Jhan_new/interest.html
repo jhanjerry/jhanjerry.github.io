@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : GrassyGreen 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140310
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jhan</title>
+
+
+ <script language="JavaScript" type="text/javascript">
+
+    var speed = 1000;
+    var pt = new Array();
+    var url = new Array();
+    var current = 0;
+    pt[0] = new Image(); pt[0].src = "images/pic01.jpg"; url[0]="index.html"
+    pt[1] = new Image(); pt[1].src = "images/Penguins.jpg"; url[1] = "index.html"
+
+   
+
+    function start() {
+        current++;
+        if (current >= pt.length) current = 0;
+        document.imgs.src = pt[current].src;
+        setTimeout("start()", speed);
+    }
+
+    function go()
+    { window.location = url[current] };
+ </script>
+	
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="face.jpg" rel="SHORTCUT ICON">
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+		
+    });
+});
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+		
+    });
+});
+
+</script>
+
+<style>
+#panel{
+    padding: 5px;
+	
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+#panel1 {
+
+	background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+	
+    padding: 50px;
+    display: none;
+}
+
+</style>
+</head>
+
+</head>
+<body onload="setTimeout('start()',speed);">
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="index.html">首頁</a></li>
+				<li class="current_page_item" style="font-size:24px; font-family: DFKai-SB;"><a href="interest.html">休閒興趣</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="expe.html">經歷</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="photo.html">相簿</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="me.html">聯絡我</a></li>
+			</ul>
+
+		</div>
+		<!-- end #menu --> 
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1 style="font-family:Arial"><a href="#">Jhan Yi Chun</a></h1>
+				<p style="font-size:20px";>JYC Just do it</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="banner" class="container"><img alt="" align="center" src="images/13.jpg" style="width:1700px; height:400px"/></a></div>
+    <br />
+    <div id="page" class="container" style="background-image:url(images/bg1.png); height:100%;">
+    <ul style="list-style-image:url(images/whitepoint.jpg); margin-left:30px">
+		<div id="flip" class="css_btn_class">音 樂<span style="font-family:Arial;font-style: italic ;font-weight: 900"> (music)</span></div> <br />
+        <div id="panel" class="down"><span style="font-size: 20px; text-align:left; ">It's my youtube song list</span> <br /> <a href="https://www.youtube.com/playlist?list=PLS6PZ4XKoLaxWnyKNcvZQYYmKPy1seMg3"><img onmouseover="this.src='images/youtube1.png';"
+																																																		  onmouseout="this.src='images/youtube.png';" src="images/youtube.png" alt=""; width="1700" height="500"/></a></div>
+		
+		<div id="flip1" class="css_btn_class">運 動<span style="font-family:Arial;font-style: italic ;font-weight: 900"> (sports)</span></div>
+        <div id="panel1" class="down" align="center"><img alt=""  src="images/gif/basketball.gif" style="height:300px;"/><img alt="" src="images/gif/run.gif" style="height:300px; padding-left:100px;"/><img alt="" src="images/gif/giphy.gif" style="height:300px; padding-left:100px;"/></div>
+		
+		<a href="http://lol.garena.tw/index/index.php" class="css_btn_class">遊 戲<span style="font-family:Arial;font-style: italic ;font-weight: 900"> (game)</span></a>
+        <a href="http://in99hotel.okgo.tw/" class="css_btn_class">打 工<span style="font-family:Arial;font-style: italic ;font-weight: 900"> (part-time job)</span></a>
+        <a href="http://kukuklok.com/" class="css_btn_class">睡 覺<span style="font-family:Arial;font-style: italic;font-weight: 900"> (sleep)</span></a>   
+    </ul>
+	
+	
+	
+   <script type="text/javascript" src="http://www.clocklink.com/embed.js"></script>
+<div id="sidebar" style="position:relative; top:-239px; left: -49px;">
+   <script type="text/javascript" language="JavaScript">
+    obj = new Object;
+    obj.clockfile = "5025-white.swf";
+    obj.TimeZone = "Taiwan_Taipei"; obj.width = 180;
+    obj.height = 180;
+    obj.wmode = "transparent";
+    showClock(obj);
+  </script>
+</div>
+	</div>
+</div>
+
+</body>
+</html>

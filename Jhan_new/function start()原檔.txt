@@ -1,0 +1,6 @@
+   function start() {
+        current++;
+        if (current >= pt.length) current = 0;
+        document.imgs.src = pt[current].src;
+        setTimeout("start()", speed);
+    }

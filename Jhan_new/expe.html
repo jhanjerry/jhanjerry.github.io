@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : GrassyGreen 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140310
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jhan</title>
+
+ <script language="JavaScript">
+
+     var speed = 1000;
+     var pt = new Array();
+     var url = new Array();
+     var current = 0;
+     pt[0] = new Image(); pt[0].src = "images/pic01.jpg"; url[0] = "index.html"
+     pt[1] = new Image(); pt[1].src = "images/Penguins.jpg"; url[1] = "index.html"
+
+
+     function start() {
+         current = 1;
+         if (current >= pt.length);
+         document.imgs.src = pt[current].src;
+         setTimeout("start()", speed);
+     }
+
+     function go()
+     { window.location = url[current] };
+ </script>
+	
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="face.jpg" rel="SHORTCUT ICON">
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.hoverpulse.js">
+$(document).ready(function() {
+    $('div.abc img').hoverpulse();
+});
+</script>
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body onload="setTimeout('start()',speed);">
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="index.html">首頁</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="interest.html">休閒興趣</a></li>
+				<li class="current_page_item" style="font-size:24px; font-family: DFKai-SB;"><a href="exp.html">經歷</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="photo.html">相簿</a></li>
+				<li style="font-size:24px; font-family: DFKai-SB;"><a href="me.html">聯絡我</a></li>
+			</ul>
+		</div>
+		<!-- end #menu --> 
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1 style="font-family:Arial"><a href="http://facebook.com/groupjhan">Jhan Yi Chun</a></h1>
+				<p style="font-size:20px";>JYC Just do it</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container" id="banner">
+        <img align="center" alt="mistake" src="images/graduat.jpg" style="width:100%; height:400px";/>
+	</div>
+	<div id="page" class="container" style="background-image:url(images/bg1.png); height:100%;">
+        <h1 style="font-family:DFKai-SB">高中時期:</h1><br/>
+        <table style="border-color:red ;border-style: solid;" border="1";>
+         <tr>
+             <th>工業電子丙級</th>
+             <th>數位電子乙級</th>
+             <th>電腦軟體應用丙級</th>
+             <th>國際證照IC3</th>
+             <th>TQC powerpoint</th>
+             <th>TQC word </th>        
+         </tr>
+             <tr>
+             <td><img src="images/高中證照/a.jpg" width="200"; height="150" onclick="document.getElementById('extend').src='images/高中證照/a.jpg' "/></td>
+             <td><img src="images/高中證照/b.jpg" width="200"; height="150" onMouseOver="this.width=this.width*2;this.height=this.height*2;" onMouseOut="this.width=this.width/2;this.height=this.height/2;"></td>
+             <td><img src="images/高中證照/c.jpg" width="200"; height="150" onMouseOver="this.width=this.width*2;this.height=this.height*2;" onMouseOut="this.width=this.width/2;this.height=this.height/2;"></td>
+             <td><img src="images/高中證照/d.jpg" width="200"; height="150" onMouseOver="this.width=this.width*2;this.height=this.height*2;" onMouseOut="this.width=this.width/2;this.height=this.height/2;"></td>
+             <td><img src="images/高中證照/e.jpg" width="200"; height="150" onMouseOver="this.width=this.width*4;this.height=this.height*4;" onMouseOut="this.width=this.width/4;this.height=this.height/4;"></td>
+             <td><img src="images/高中證照/f.jpg" width="200"; height="150" onMouseOver="this.width=this.width*4;this.height=this.height*4;" onMouseOut="this.width=this.width/4;this.height=this.height/4;"></td>      
+
+			
+         </tr>
+        </table>
+		<br />
+        <h1 style="font-family:DFKai-SB">大學時期:</h1>
+		
+        <table style="border-color:red ;border-style: solid;" border="1";>
+         <tr>
+             <th>嵌入式系統證照</th>
+             <th>自走車負重致遠</th>
+             <th>自走車競速</th>     
+         </tr>
+             <tr>
+             <td><img src="images/大學/a.jpg" width="200"; height="150" onMouseOver="this.width=this.width*2;this.height=this.height*2;" onMouseOut="this.width=this.width/2;this.height=this.height/2;"></td>
+             <td><img src="images/大學/b.jpg" width="150"; height="200" onMouseOver="this.width=this.width*4;this.height=this.height*4;" onMouseOut="this.width=this.width/4;this.height=this.height/4;"></td>
+             <td><img src="images/大學/c.jpg" width="150"; height="200" onMouseOver="this.width=this.width*4;this.height=this.height*4;" onMouseOut="this.width=this.width/4;this.height=this.height/4;"></td>
+             </tr>
+			 
+			 
+			
+       </table>
+			
+			<div align="right" class="abc">
+			<img id="extend" src="images/大學/a.jpg" />
+			</div>
+		
+
+			<div class="title">
+			
+		</div>
+		<div id="sidebar">
+			<div class="box2">
+				<div class="title">
+				
+				</div>
+			
+			</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+</body>
+</html>
